@@ -145,7 +145,17 @@ namespace HelloWorld
             Console.WriteLine("Equal to or not: " + (number3 == number4));
             Console.WriteLine("Not Equal to: " + (number3 != number4));
 
+            Console.WriteLine("========================> MATH-CLASS In C# <========================");
 
+            double mathNumber = 20.344546563445;
+
+            double roundedNumber = Math.Floor(Math.Round(mathNumber));
+
+            double squarNumber = Math.Sqrt(mathNumber);
+
+            double abbsaluteNumber = Math.Abs(mathNumber);
+
+            Console.WriteLine(roundedNumber + " " + squarNumber + " " + abbsaluteNumber);
         }
     }
 }
