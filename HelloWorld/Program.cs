@@ -185,6 +185,7 @@ namespace HelloWorld
 
             Console.WriteLine("========================> IF-ELSE In C# <========================");
 
+            /* 
             Console.WriteLine("Please, enter your age: ");
             string personAge = Console.ReadLine();
             int age = Convert.ToInt32(personAge);
@@ -205,6 +206,29 @@ namespace HelloWorld
             {
                 Console.WriteLine("You can't drive.");
             }
+            */
+
+            //  Switch Statement in c#
+            Console.WriteLine("========================> SWITCH-STATEMENT In C# <========================");
+
+            Console.WriteLine("Please, enter your age: ");
+            string personAge2 = Console.ReadLine();
+            int age2 = Convert.ToInt32(personAge2);
+
+            switch (age2)
+            {
+                case int n when age2 < 18:
+                    Console.WriteLine("You are a teenager can't drive.");
+                    break;
+
+                case int n when age2 > 18:
+                    Console.WriteLine("You can drive.");
+                    break;
+                default:
+                    Console.WriteLine("You can't drive.");
+                    break;
+            }
+
         }
     }
 }
