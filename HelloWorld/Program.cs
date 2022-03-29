@@ -13,11 +13,11 @@ namespace HelloWorld
              */
 
             /*
-            
+
              ========================> DATATYPE'S OF C# <========================
-               
+
              1) Integer -> int number = 5; [Data-Type Size = 4 bytes]
-             
+
              2) Floatin Integer -> float floatingNumber = 2.21; [Data-Type Size = 4 bytes]
 
              3) String -> string name = "kashyap" [Data-Type Size = 2 bytes per character]
@@ -271,6 +271,20 @@ namespace HelloWorld
                 Console.WriteLine(forLoopNumber);
                 // break;  // this is break the loop.
             }
+
+            Greeting(name);
+            Console.WriteLine(Avrage(20, 10));
+        }
+
+        static void Greeting(string name)
+        {
+            Console.WriteLine($"Hello Greeting {name}");
+        }
+
+        static double Avrage(double number1, double number2)
+        {
+            double avrage = (number1 + number2);
+            return Math.Floor(Math.Round(avrage / 2));
         }
     }
 }
