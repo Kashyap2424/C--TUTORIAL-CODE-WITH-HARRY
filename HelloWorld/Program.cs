@@ -211,6 +211,8 @@ namespace HelloWorld
             //  Switch Statement in c#
             Console.WriteLine("========================> SWITCH-STATEMENT In C# <========================");
 
+            /* 
+
             Console.WriteLine("Please, enter your age: ");
             string personAge2 = Console.ReadLine();
             int age2 = Convert.ToInt32(personAge2);
@@ -229,6 +231,18 @@ namespace HelloWorld
                     break;
             }
 
+            */
+
+            // Loop's in c#
+
+            Console.WriteLine("========================> WHILE-LOOP In C# <========================");
+            int whileLoopNumber = 0;
+
+            while (whileLoopNumber < 10)
+            {
+                Console.WriteLine(whileLoopNumber);
+                whileLoopNumber++;
+            }
         }
     }
 }
