@@ -173,13 +173,38 @@ namespace HelloWorld
             Console.WriteLine(personInfo.IndexOf('i')); // this is return a index of the character.
             Console.WriteLine(personInfo.Substring(7)); // this is return a substring of the string.
 
-            string productName = Console.ReadLine();
-            string productQuantity = Console.ReadLine();
+            // string productName = Console.ReadLine();
+            // string productQuantity = Console.ReadLine();
 
-            Console.WriteLine($"Product Name: {productName}  Product Quantity: {productQuantity}"); // this is return a string concatination.
+            // Console.WriteLine($"Product Name: {productName}  Product Quantity: {productQuantity}"); // this is return a string concatination.
 
             string escapeString = "This is a \"escape\" string. \nThis is a new line. \tThis is a tab.";
             Console.WriteLine(escapeString);
+
+            //  If-Else Statement in c#
+
+            Console.WriteLine("========================> IF-ELSE In C# <========================");
+
+            Console.WriteLine("Please, enter your age: ");
+            string personAge = Console.ReadLine();
+            int age = Convert.ToInt32(personAge);
+
+            if (age < 2)
+            {
+                Console.WriteLine("You are new born baby can't drive.");
+            }
+            else if (age < 18)
+            {
+                Console.WriteLine("You are a teenager can't drive.");
+            }
+            else if (age < 75)
+            {
+                Console.WriteLine("You are a adult you can drive.");
+            }
+            else
+            {
+                Console.WriteLine("You can't drive.");
+            }
         }
     }
 }
