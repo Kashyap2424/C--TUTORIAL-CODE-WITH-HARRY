@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IyarpAoUs6QI44NqV8fgAM4xNcOXErtoVb/aNT/RwqGKiKpYPHpxVbK1J18Ab3u6BOaXCgdKe+tgtaLK8//HPw==",
+  "dgSpecHash": "feQuKpPn9P3lkog6Owvx/rOOSj16ov8VJ9pBf08xWasp7xGjyu1SnBePNBLIH74ElbAP7aDhtzMIgiR81e2FRA==",
   "success": true,
   "projectFilePath": "/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/HelloWorld.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/k.k.h.m/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/k.k.h.m/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/k.k.h.m/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512"
+  ],
   "logs": []
 }
