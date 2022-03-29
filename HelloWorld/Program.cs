@@ -113,6 +113,17 @@ namespace HelloWorld
             Console.WriteLine("Subtraction of two numbers: " + (5 - 2));
             Console.WriteLine("Divition of two numbers: " + (5 / 2));
             Console.WriteLine("Multiplication of two numbers: " + (5 * 2));
+
+            Console.WriteLine("========================> ASSIGNMENT-OPERATOR In C# <========================");
+
+            int number3 = 5;
+            int number4 = 2;
+
+            Console.WriteLine("Additino of two numbers: " + (number3 += number4)); // number4 = number4 + number3;
+            Console.WriteLine("Subtraction of two numbers: " + (number3 -= number4)); // number4 = number4 - number3;
+            Console.WriteLine("Divition of two numbers: " + (number3 /= number4)); // number4 = number4 / number3;
+            Console.WriteLine("Multiplication of two numbers: " + (number3 *= number4)); // number4 = number4 * number3;
+
         }
     }
 }
