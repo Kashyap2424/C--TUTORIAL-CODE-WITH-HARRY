@@ -11,3 +11,4 @@
 /Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.dll
 /Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.pdb
 /Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Debug/netcoreapp3.1/HelloWorld.genruntimeconfig.cache
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Debug/netcoreapp3.1/HelloWorld

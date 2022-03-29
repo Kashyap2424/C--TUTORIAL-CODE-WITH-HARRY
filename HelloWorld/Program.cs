@@ -156,6 +156,30 @@ namespace HelloWorld
             double abbsaluteNumber = Math.Abs(mathNumber);
 
             Console.WriteLine(roundedNumber + " " + squarNumber + " " + abbsaluteNumber);
+
+            //  String Methos in c#
+
+            Console.WriteLine("========================> STRING-METHODS In C# <========================");
+
+            string personInfo = "Hello, my name is kapdi kashyap and i am a student of C#";
+
+            Console.WriteLine(personInfo.Length); // this is return a length of the string.
+            Console.WriteLine(personInfo.ToUpper()); // this is return a string in upper case.
+            Console.WriteLine(personInfo.ToLower()); // this is return a string in lower case.
+            Console.WriteLine(personInfo + " Kashyap is good person."); // this is return a string concatination.
+            Console.WriteLine(string.Concat(personInfo, " Kashyap is good person.")); // this is return a string concatination.
+
+            Console.WriteLine(personInfo[0]); // this is return a character of the string.
+            Console.WriteLine(personInfo.IndexOf('i')); // this is return a index of the character.
+            Console.WriteLine(personInfo.Substring(7)); // this is return a substring of the string.
+
+            string productName = Console.ReadLine();
+            string productQuantity = Console.ReadLine();
+
+            Console.WriteLine($"Product Name: {productName}  Product Quantity: {productQuantity}"); // this is return a string concatination.
+
+            string escapeString = "This is a \"escape\" string. \nThis is a new line. \tThis is a tab.";
+            Console.WriteLine(escapeString);
         }
     }
 }
