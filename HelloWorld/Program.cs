@@ -16,9 +16,9 @@ namespace HelloWorld
             
              ========================> DATATYPE'S OF C# <========================
                
-             1) Integer -> int number = 10; [Data-Type Size = 4 bytes]
+             1) Integer -> int number = 5; [Data-Type Size = 4 bytes]
              
-             2) Floatin Integer -> float floatingNumber = 20.21; [Data-Type Size = 4 bytes]
+             2) Floatin Integer -> float floatingNumber = 2.21; [Data-Type Size = 4 bytes]
 
              3) String -> string name = "kashyap" [Data-Type Size = 2 bytes per character]
 
@@ -36,9 +36,9 @@ namespace HelloWorld
 
             Console.WriteLine("========================> DATATYPE'S OF C# <========================");
 
-            int number1 = 10;
+            int number1 = 5;
 
-            float number2 = 10.20F;
+            float number2 = 5.20F;
 
             string name = "kashyap";
 
@@ -70,7 +70,7 @@ namespace HelloWorld
 
             // 1) Implicit type-casting.
 
-            int typeCastingNumber = 10;
+            int typeCastingNumber = 5;
 
             double intToDouble = typeCastingNumber;
 
@@ -91,12 +91,28 @@ namespace HelloWorld
             Console.WriteLine("========================> TAKING-INPUT-FROM-USER In C# <========================");
 
             Console.WriteLine("Please, enter your name: ");
-            string personName = Console.ReadLine();
-            Console.WriteLine("Hello, welcome Mr/Miss: " + personName);
+            // string personName = Console.ReadLine();
+            // Console.WriteLine("Hello, welcome Mr/Miss: " + personName);
 
             Console.WriteLine("How many candies do you want: ");
-            string cadiesNumber = Console.ReadLine();
-            Console.WriteLine("You will get 5 more candies from use: " + (Convert.ToInt32(cadiesNumber) + 5));
+            // string cadiesNumber = Console.ReadLine();
+            // Console.WriteLine("You will get 5 more candies from use: " + (Convert.ToInt32(cadiesNumber) + 5));
+
+            // Operator in c# 
+
+            /*
+                1)  Arithmetic Operator
+                2)  Assignmet Operator 
+                3)  Logical Operator
+                4)  Comparison Operator
+            */
+
+            Console.WriteLine("========================> ARITHMATIC-OPERATOR In C# <========================");
+
+            Console.WriteLine("Additino of two numbers: " + (5 + 2));
+            Console.WriteLine("Subtraction of two numbers: " + (5 - 2));
+            Console.WriteLine("Divition of two numbers: " + (5 / 2));
+            Console.WriteLine("Multiplication of two numbers: " + (5 * 2));
         }
     }
 }
