@@ -1,0 +1,12 @@
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Release/netcoreapp3.1/HelloWorld.deps.json
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Release/netcoreapp3.1/HelloWorld.runtimeconfig.json
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Release/netcoreapp3.1/HelloWorld.runtimeconfig.dev.json
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Release/netcoreapp3.1/HelloWorld.dll
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/bin/Release/netcoreapp3.1/HelloWorld.pdb
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.AssemblyInfo.cs
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.dll
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.pdb
+/Users/k.k.h.m/Projects/HelloWorld/HelloWorld/obj/Release/netcoreapp3.1/HelloWorld.genruntimeconfig.cache
