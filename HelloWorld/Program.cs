@@ -252,6 +252,25 @@ namespace HelloWorld
                 Console.WriteLine(doWhileLoopNumber);
                 doWhileLoopNumber++;
             } while (doWhileLoopNumber < 10);
+
+            Console.WriteLine("========================> FOR-LOOP In C# <========================");
+
+            /*
+                1) Break: this is break the loop (Leave the loop forever).
+                2) Continue: this is continue the loop (Leave the loop and continue to the next iteration).
+            */
+
+            for (int forLoopNumber = 0; forLoopNumber < 10; forLoopNumber++)
+            {
+
+                if (forLoopNumber == 0)
+                {
+                    continue; // this is continue the loop.
+                }
+
+                Console.WriteLine(forLoopNumber);
+                // break;  // this is break the loop.
+            }
         }
     }
 }
