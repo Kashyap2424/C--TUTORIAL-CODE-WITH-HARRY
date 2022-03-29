@@ -124,6 +124,17 @@ namespace HelloWorld
             Console.WriteLine("Divition of two numbers: " + (number3 /= number4)); // number4 = number4 / number3;
             Console.WriteLine("Multiplication of two numbers: " + (number3 *= number4)); // number4 = number4 * number3;
 
+            Console.WriteLine("========================> LOGICAL-OPERATOR In C# <========================");
+
+            // AND Operator
+            Console.WriteLine(true && false); // if both condition will be true then it's return a true.
+
+            // OR Operator
+            Console.WriteLine(true || false); // in given condition anyone come true then this return true.
+
+            // NOT Operator
+            Console.WriteLine(!false); // this is return a true when we will do vice-versa of any condition then we use this operator
+            Console.WriteLine(!true); // this is return a false when we will do vice-versa of any condition then we use this operator
         }
     }
 }
