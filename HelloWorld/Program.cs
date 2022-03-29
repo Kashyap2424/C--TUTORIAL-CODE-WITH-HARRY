@@ -135,6 +135,17 @@ namespace HelloWorld
             // NOT Operator
             Console.WriteLine(!false); // this is return a true when we will do vice-versa of any condition then we use this operator
             Console.WriteLine(!true); // this is return a false when we will do vice-versa of any condition then we use this operator
+
+            Console.WriteLine("========================> COMPARISON-OPERATOR In C# <========================");
+
+            Console.WriteLine("Grater Than or not: " + (number3 > number4));
+            Console.WriteLine("Less Than or not: " + (number3 < number4));
+            Console.WriteLine("Grater Than Equal to or not: " + (number3 >= number4));
+            Console.WriteLine("Less Than Equal to or not: " + (number3 <= number4));
+            Console.WriteLine("Equal to or not: " + (number3 == number4));
+            Console.WriteLine("Not Equal to: " + (number3 != number4));
+
+
         }
     }
 }
