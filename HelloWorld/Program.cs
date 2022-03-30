@@ -274,6 +274,17 @@ namespace HelloWorld
 
             Greeting(name);
             Console.WriteLine(Avrage(20, 10));
+
+            // OOPS - Object Oriented Programming in C# 
+
+            Console.WriteLine("========================> OOPS-IN C# <========================");
+
+            Players Kashyap = new Players();
+
+
+            Console.WriteLine(Kashyap.getAge());    // this is return a age of the player.
+            Kashyap.setAge(20); // this is set a age of the player.
+            Console.WriteLine(Kashyap.getAge());    // this is return a age of the player (After setting a age).
         }
 
         static void Greeting(string name)
