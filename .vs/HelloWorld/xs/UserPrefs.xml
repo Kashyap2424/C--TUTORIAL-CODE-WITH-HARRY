@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{D2BF64C7-A7F2-4C3E-9BA9-9BD73D882232}|Default">
   <MonoDevelop.Ide.ItemProperties.HelloWorld PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld/Players.cs">
     <Files>
-      <File FileName="HelloWorld/Program.cs" Line="130" Column="76" />
+      <File FileName="HelloWorld/Program.cs" Line="288" Column="1" />
+      <File FileName="HelloWorld/Players.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HelloWorld" expanded="True">
             <Node name="HelloWorld" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Players.cs" selected="True" />
             </Node>
           </Node>
         </State>
